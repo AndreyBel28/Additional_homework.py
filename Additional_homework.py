@@ -3,10 +3,8 @@ students = ['Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron']  # изменено
 
 students_list = sorted(students)
 
-# Вычисление средних оценок
 grades_average_list = [sum(g) / len(g) for g in grades]  # использование list comprehension
 
-# Создание словаря средних оценок
 average_grades_dict = dict(zip(students_list, grades_average_list))
 print(average_grades_dict)
 
